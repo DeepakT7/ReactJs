@@ -19,6 +19,10 @@ function App() {
   },
 ];
   
+const addNewGoalHandler = (newGoal) => {
+  courseGoals.push(newGoal);
+};
+
   return (
   <div className = "course-goals">
     <h2> 
